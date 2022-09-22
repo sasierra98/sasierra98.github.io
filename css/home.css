@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("/fonts/RobotoMono-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Roboto Mono Italic";
+    src: url("/fonts/RobotoMono-Italic-VariableFont_wght.ttf");
+}
+
+#home {
+    /*background: url(/images/turned-on-gray-laptop-computer.jpg) no-repeat center ;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/turned-on-gray-laptop-computer.jpg");
+    /*--bs-bg-opacity: 10;*/
+    /*filter: brightness(0.5);*/
+    background-size: auto;
+    background-size: cover;
+}
+
+#home header {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: .625rem 0;
+    position: relative;
+}
+
+#home span {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    position: relative;
+    /*color: #252839;*/
+    /*-webkit-text-stroke: 0.3vw #383d52;*/
+
+}
+
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+}
+
+/*.typing {*/
+/*    width: 35%;*/
+/*    animation: typing 2s steps(22), blink .5s step-end infinite alternate;*/
+/*    white-space: nowrap;*/
+/*    overflow: hidden;*/
+/*    border-right: 3px solid;*/
+/*    font-family: monospace;*/
+/*    font-size: 2em;*/
+/*}*/
+
+/*.typing h1 {*/
+/*    text-align: center;*/
+/*}*/
+
+/*@keyframes typing {*/
+/*    from {*/
+/*        width: 0*/
+/*    }*/
+/*}*/
+
+/*@keyframes blink {*/
+/*    50% {*/
+/*        border-color: transparent*/
+/*    }*/
+/*}*/
