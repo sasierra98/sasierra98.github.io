@@ -8,11 +8,9 @@
 }
 
 #home {
-    /*background: url(/images/turned-on-gray-laptop-computer.jpg) no-repeat center ;*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/images/turned-on-gray-laptop-computer.jpg");
-    /*--bs-bg-opacity: 10;*/
-    /*filter: brightness(0.5);*/
+    background: url(/images/code-gab7090f9a_1920.jpg) no-repeat center ;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/
+    /*url("/images/turned-on-gray-laptop-computer.jpg");*/
     background-size: auto;
     background-size: cover;
 }
